@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | FoodHub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">FoodHub</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Our Menu</a>
+            <a href="checkout.html">Checkout</a>
+        </div>
+    </nav>
+    <section class="categories" style="text-align:left; padding-top:2rem;">
+        <h2>All Items</h2>
+        <div class="category-grid">
+            <div class="category-card" onclick="window.location.href='item-details.html'">
+                <h3>Margherita Pizza</h3>
+                <p>Pizza</p>
+                <p style="margin-top:1rem;font-size:0.9rem;">Classic cheese and tomato pizza with fresh basil.</p>
+                <button class="btn btn-primary" style="margin-top:1rem; padding:0.5rem 1rem; background: #e11d48;">View Details</button>
+            </div>
+            <div class="category-card">
+                <h3>Cheeseburger</h3>
+                <p>Burgers</p>
+                <p style="margin-top:1rem;font-size:0.9rem;">Juicy beef patty with melted cheddar.</p>
+                <button class="btn btn-primary" style="margin-top:1rem; padding:0.5rem 1rem; background: #e11d48;">View Details</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

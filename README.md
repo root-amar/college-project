@@ -5,7 +5,7 @@ A modern web application for ordering food from your favorite local restaurants.
 ## Project Demo
 Check out the video below for a quick demonstration of the website and its features:
 
-https://github.com/root-amar/college-project/raw/master/video/demo.mp4
+[![Watch the Demo](https://img.shields.io/badge/Click_Here_To_Watch-Project_Demo_Video-red?style=for-the-badge&logo=youtube)](https://github.com/root-amar/college-project/blob/master/video/demo.mp4)
 
 
 **Note on Current State:** This is currently just a standard food delivery frontend interface and basic database connection. There is nothing overly complex yet. **In the future, we are planning to integrate advanced AI features** to recommend meals based on your eating habits!
